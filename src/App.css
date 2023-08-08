@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+
+nav {
+  width: 200%;
+	float: left;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+}
+.container{
+  width: 75%;
+  margin-left: 10%;
+  margin-left: 10%;
+}
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: ' ';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 10px;
+}
